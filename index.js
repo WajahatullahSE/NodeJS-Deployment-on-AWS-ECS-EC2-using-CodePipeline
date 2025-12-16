@@ -6,7 +6,7 @@ app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
   response.send(`
-    <h1>Node.js Sample Application, Version 1</h1>
+    <h1>Node.js Sample Application, Version v02 (Code Pipeline Integration)</h1>
     <p>This image is pushed to AWS ECR and deployed on ECS (EC2).</p>
     <p>Welcome to Application!</p>
   `);
